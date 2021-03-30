@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!--  引入bootstrap的相关文件 -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+<!--  引入自己的index.css-->
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Title</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row"><!-- .row 让左边紧紧贴在左边 -->
+      <header class="col-md-2">
+        <div class="logo">
+<!--           class="hidden-xs" 如果进入了超小屏幕的状态 logo图片隐藏-->
+          <a href="javascript:;">
+            <img src="./images/logo.png" alt="" class="hidden-xs">
+          </a>
+<!--          class="visible-xs" 超小屏幕显示-->
+          <span class="visible-xs">阿里百秀</span>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a class="glyphicon glyphicon-camera" href="javascript:;">生活馆</a></li>
+            <li><a class="glyphicon glyphicon-picture" href="javascript:;">自然汇</a></li>
+            <li><a class="glyphicon glyphicon-phone" href="javascript:;">科技潮</a></li>
+            <li><a class="glyphicon glyphicon-facetime-video" href="javascript:;">奇趣事</a></li>
+            <li><a class="glyphicon glyphicon-glass" href="javascript:;">美食节</a></li>
+          </ul>
+        </div>
+      </header>
+      <article class="col-md-7">
+<!--        新闻模块-->
+        <div class="news clearfix">
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/news-1.jpg" alt="">
+                <p>局部卫星测绘地图</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/news-2.png" alt="">
+                <p>接种破亿后 官方再发疫苗接种技术指南</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/news-3.jpg" alt="">
+                <p>养老金涨多少？4月底前揭晓</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/news-4.png" alt="">
+                <p>乌克兰东部战云密布，发生了啥</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./upload/news-5.png" alt="">
+                <p>年轻人为美付出了多少代价</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+<!--        公共发表模块-->
+        <div class="publish">
+          <div class="row">
+            <div class="col-md-3 little_pic hidden-xs">
+              <img src="./upload/news-img-1.jpg" alt="">
+            </div>
+            <div class="col-md-9">
+              <h3>美高官妄称中国6年内"武统"台湾 我国防部回应</h3>
+              <p class="text-muted hidden-xs">mtwjy 发布于2021-3-30</p>
+              <p class="hidden-xs">美国“欧亚评论”网站3月29日文章，原题：塞尔维亚媒体创造了一个热爱中国的国家（舆论）与塞尔维亚政治精英的密切联系，以及塞尔维亚媒体，特别是与塞尔维亚政府关系密切的媒体对中国的正面介绍，使中国成为最受塞尔维亚民众欢迎的国家之一。</p>
+              <p class="text-muted">阅读(101) 查看评论 <span class="hidden-xs">标签：军事 中国 军迷圈 大国博弈 解决方案</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 little_pic hidden-xs">
+              <img src="./upload/news-img-2.jpg" alt="">
+            </div>
+            <div class="col-md-9">
+              <h3>寻路中国：大漠渔舟</h3>
+              <p class="text-muted hidden-xs">mtwjy 发布于2021-3-30</p>
+              <p class="hidden-xs">食物主要是鱼及捕捉野鸭等水鸟，百年前的塔里木河，洪水过后，河水满溢形成了许多小湖泊（海子），里面有许多鱼。</p>
+              <p class="text-muted">阅读(101) <span class="hidden-xs">查看评论 标签：美食 中国 人民 生活</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 little_pic hidden-xs">
+              <img src="./upload/news-img-3.jpg" alt="">
+            </div>
+            <div class="col-md-9">
+              <h3>山西大学师生接种新冠疫苗</h3>
+              <p class="text-muted hidden-xs">mtwjy 发布于2021-3-30</p>
+              <p class="hidden-xs">3月29日，山西太原，山西大学师生在校内指定地点接种新冠病毒疫苗。据中国国家卫生健康委员会网站消息，截至2021年3月28日，各地累计报告接种新冠病毒疫苗10661.3万剂次。中新社记者 武俊杰 摄</p>
+              <p class="text-muted">阅读(101) <span class="hidden-xs">查看评论 标签：军事 中国 军迷圈 大国博弈 解决方案</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 little_pic hidden-xs">
+              <img src="./upload/news-img-4.jfif" alt="">
+            </div>
+            <div class="col-md-9">
+              <h3>贺兰山的珍贵画面 贺兰山中鹿鸣呦呦</h3>
+              <p class="text-muted hidden-xs">mtwjy 发布于2021-3-30</p>
+              <p class="hidden-xs">
+                贺兰山是宁夏的天然生态屏障，这里的林草资源为许多动物提供了食物来源，山中有草雕、岩羊、雪豹、马鹿等动物，但由于多年的矿产开采和人类其他活动，生态环境受到影响，动物种群纷纷隐匿大山深处，踪影难觅。近年来，宁夏持续推进贺兰山保护区生态环境综合整治，随着生态环境持续向好，曾经躲在大山深处的马鹿、岩羊等野生动物不时下山觅食。据了解，我国现有8个亚种马鹿，分布于宁夏与内蒙古交界的贺兰山中段大部分是阿拉善亚种，属国家二级保护动物。贺兰山岩画景区 供图</p>
+              <p class="text-muted">阅读(101) 查看评论 <span class="hidden-xs">标签：军事 中国 军迷圈 大国博弈 解决方案</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 little_pic hidden-xs">
+              <img src="./upload/news-img-5.jpg" alt="">
+            </div>
+            <div class="col-md-9">
+              <h3>苏伊士运河搁浅货船成功起浮 船身方向明显修正</h3>
+              <p class="text-muted hidden-xs">mtwjy 发布于2021-3-30</p>
+              <p class="hidden-xs">
+                当地时间3月29日，搁浅在苏伊士运河中的重型货船已成功起浮，船身方向明显修正。图为这艘长约400米的货船船身已逐渐摆正，接近于和运河河岸平行状态</p>
+              <p class="text-muted">阅读(101) 查看评论 <span class="hidden-xs">标签：军事 中国 军迷圈 大国博弈 解决方案</span></p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="col-md-3">
+        <a href="javascript:;" class="banner">
+          <img src="./upload/zgboke.jpg" alt="">
+        </a>
+        <a href="javascript:;" class="hot">
+          <button class="btn btn-primary">热搜</button>
+          <h4 class="text-primary">欢迎加入中国博客联盟</h4>
+          <p class="text-muted">您好，欢迎来到中国博客联盟！这里只收录优秀独立博客，纯手工审核机制！</p>
+        </a>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
